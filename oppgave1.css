@@ -4,4 +4,31 @@ h1 {
 
 #output {
     display: flex;
+    align-items: top;
+    flex-wrap: wrap;
+}
+
+.card {
+    min-height: 200px;
+    width: 300px;
+    margin: 16px;
+    padding: 16px;
+
+    background-color: lightslategrey;
+}
+
+.card-name {
+    border-bottom: 4px solid black;
+}
+
+.card-flag {
+    width: 300px;
+}
+
+.card-capital {
+    text-align: center;
+}
+
+.card-inhabitants {
+    text-align: end;
 }
